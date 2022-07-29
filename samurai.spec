@@ -1,4 +1,5 @@
 Summary:	ninja-compatible build tool written in C
+Summary(pl.UTF-8):	Napisane w C narzędzie do budowania zgodne z Ninja
 Name:		samurai
 Version:	1.2
 Release:	1
@@ -12,6 +13,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 ninja-compatible build tool written in C.
+
+%description -l pl.UTF-8
+Napisane w C narzędzie do budowania zgodne z Ninja.
 
 %prep
 %setup -q
